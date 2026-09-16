@@ -28,7 +28,7 @@ def cadastro(address, password):
         v_address = input('Coloque seu email: ')
         v_password = input('Coloque sua senha: ')
         if address == v_address and v_password == password:
-            print(f'Tudo correto, seja bem vindo {nome}')
+            print(f'Tudo correto, seja bem vindo! {nome}')
             break
         else:
             d = input(' deseja tentar novamente? (s/n): ').lower()
