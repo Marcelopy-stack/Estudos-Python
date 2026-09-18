@@ -33,8 +33,4 @@ while d in ('s','sim'):
     else:
         print('Inválido!')
     d = input('Deseja repetir? (s/n): ')
-        
     
-    
-    
-ver_tarefas()
